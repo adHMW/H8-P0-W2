@@ -1,8 +1,10 @@
 function balikKata(kata) {
-  // you can only write your code here!
-  var balik=kata.split('').reverse().join('');
-  return balik;
+  var word = '';
+  for (var i = kata.length-1; i >= 0; i--) {
+    word = word + kata[i];
+  }
   
+  return msg;
 }
 
 // TEST CASES
